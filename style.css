@@ -177,6 +177,54 @@ a:active {
     margin-left: auto
 }
 
+.review-upper-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: .75em;
+    
+}
+
+.platform-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.platform-container-2 {
+    flex-direction: column;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: .2em;
+    border-bottom: 1px solid #5361e3;
+    padding-bottom: .1em;
+    flex-shrink: 0;
+    height: fit-content;
+}
+
+.platform-top-row {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 1.25em;
+}
+
+.plat-bottom-row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: .6em;
+    margin-bottom: 0;
+    margin-top: -.25em;
+    flex-shrink: 0;
+    padding-bottom: .1em;
+    height: fit-content;
+}
+
 .main-upper-right-2 {
     display: flex;
     flex-direction: column;
