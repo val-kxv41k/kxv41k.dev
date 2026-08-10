@@ -434,7 +434,7 @@ a:active {
 }
 
 .review-button {
-    color: #FA9EBC;
+    color: #5361e3;
     font-size: 10.5px;
     margin-right: -.25em;
 }
@@ -470,6 +470,17 @@ a:active {
     color: #cdd2ff;
     font-size: 10.5px;
     margin-right: .35em;
+}
+
+.raid-award {
+    color: #cdd2ff;
+    font-size: 10.5px;
+    margin-right: .35em;
+}
+
+.raid-award:hover {
+    color: #ffffff;
+    font-size: 10.5px;
 }
 
 .tag {
