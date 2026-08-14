@@ -198,8 +198,10 @@ a:active {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: .2em;
-    border-bottom: 1px solid #5361e3;
-    padding-bottom: .1em;
+    padding-left: .5em;
+    padding-bottom: .15em;
+    padding-top: .35em;
+    border-left: 1px solid #5361e3;
     flex-shrink: 0;
     height: fit-content;
 }
@@ -547,14 +549,13 @@ a:active {
     border-radius: 4px;
     padding-left: .35em;
     padding-right: .35em;
-    height: 1.65em;
+    height: 2em;
     margin-right: -.3em;
 }
 
 .tag-text{
     font-size: 12.5px;
     margin-left: .25em;
-    margin-bottom: .05em;
 }
 
 .reviews-box li {
@@ -584,7 +585,7 @@ a:active {
 .smol-text-4 {
     display: inline-flex;
     align-items: center;
-    width: 4em;
+    width: 1em;
     gap: .5em;
 }
 
@@ -593,4 +594,12 @@ a:active {
     align-items: center;
     margin-left: .2em;
     gap: .5em;
+}
+
+.left-svg {
+    width: 1em; 
+    height: 1em; 
+    font-size: 14px; 
+    vertical-align: middle; 
+    margin-right: .3em
 }
